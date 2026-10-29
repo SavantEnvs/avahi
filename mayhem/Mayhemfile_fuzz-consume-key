@@ -1,0 +1,6 @@
+project: savantenvs/avahi
+target: fuzz-consume-key
+cmds:
+  - cmd: /mayhem/fuzz-consume-key
+    libfuzzer: true
+    timeout: 10

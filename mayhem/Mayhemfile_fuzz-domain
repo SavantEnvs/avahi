@@ -1,0 +1,6 @@
+project: savantenvs/avahi
+target: fuzz-domain
+cmds:
+  - cmd: /mayhem/fuzz-domain
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,6 @@
+project: savantenvs/avahi
+target: fuzz-strlst
+cmds:
+  - cmd: /mayhem/fuzz-strlst
+    libfuzzer: true
+    timeout: 10

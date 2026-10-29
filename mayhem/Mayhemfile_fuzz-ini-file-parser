@@ -1,0 +1,6 @@
+project: savantenvs/avahi
+target: fuzz-ini-file-parser
+cmds:
+  - cmd: /mayhem/fuzz-ini-file-parser
+    libfuzzer: true
+    timeout: 10
